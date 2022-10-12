@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios&nbsp;</h1>
+</header>
+<nav>
+  <ul id="menuinterno2">
+    <li><a href="formatos de texto.html">Formato de textos</a></li>
+    <li><a href="listas en html.html">Listas en html</a></li>
+    <li><a href="ENLACES EN HTMLL.html">Enlaces</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="Imágenes en HTML.html">Imágenes</a></li>
+    <li><a href="Audio.html">Audio</a></li>
+    <li><a href="Video.html">Video</a></li>
+    <li><a href="formularios.html">Formularios</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario con input de tipo texto y sumbit&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae a unde, perspiciatis hic consequuntur ipsa, suscipit voluptates possimus reprehenderit rem quidem rerum vel molestiae delectus maiores eos nostrum ratione laudantium.</p>
+    <form id="form1" name="form1" method="post">
+      <label for="nombre">Nombre:</label>
+      &nbsp;&nbsp;
+<input type="text" name="nombre" id="nombre">
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="apellido" id="apellido">
+      <input name="botón1" type="submit" class="botón1" value="Enviar">
+      
+    </form>
+  </section>
+  <section>
+    <h2>Formulario&nbsp;(desplegable, radiobutton y checkbox).</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quo quod odit eius qui commodi asperiores repellendus expedita, earum laborum doloremque impedit nulla eligendi, eveniet eos tempora! Ducimus, voluptatem, harum.</p>
+<form action="procesamiento.html" method="get" name="form2" id="form2">
+  <label for="País">País:</label>
+      <select name="País" id="País">
+        <option value="MX">México</option>
+        <option value="ES">España</option>
+        <option value="US">Estados Unidos</option>
+        <option value="AR">Argentina</option>
+        <option value="CO">Colombia</option>
+      </select>
+      <br>
+<label for="Género">Género:</label>
+      <p>
+        <label>
+          <input type="radio" name="Género" value="fem" id="Género_0">
+          Femenino</label>
+        <br>
+        <label>
+          <input type="radio" name="Género" value="mas" id="Género_1">
+          Masculino</label>
+        <br>
+        <label>
+          <input type="radio" name="Género" value="otro" id="Género_2">
+          Otro</label>
+        <br>
+      </p>
+      <label>Música preferida</label>
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Música" value="pop" id="Música_0">
+            Pop</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Música" value="rock" id="Música_1">
+            Rock</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Música" value="rap" id="Música_2">
+            Rap</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Música" value="indie" id="Música_3">
+            Indie</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Música" value="ryb" id="Música_4">
+            RyB</label></td>
+        </tr>
+      </table>
+<input name="botón2" type="submit" class="botón1" formaction="procesamiento.html" formmethod="GET" value="Enviar">
+      
+  </form>
+  </section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi quibusdam, dolorem obcaecati expedita qui eveniet fuga rerum aut non.</p>
+    <form id="form3" name="form3" method="post">
+<label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+		<br><br>
+      <label for="textarea">Comentario:&nbsp;</label>
+		<br><br>
+      <textarea name="textarea" cols="30" rows="20" maxlength="100" autofocus="autofocus" class="comentario" id="textarea">
+Escribe aquí tu comentario</textarea>
+		<br><br>
+      <input name="submit" type="submit" class="botón1" formaction="procesamiento.html" formmethod="GET" value="Enviar">
+    </form>
+</section>
+  <section>
+    <h2>Formulario (date, number, file y color)&nbsp;&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quae molestiae ratione rem, exercitationem vel, nesciunt adipisci recusandae tempore culpa, soluta nobis ut? Accusamus ea suscipit, quaerat dolore impedit dolores.</p>
+<form id="form4" name="form4" method="post">
+      
+      <label for="date">Fecha de nacimiento:</label>
+      <input type="date" name="Fechadenaciemiento" id="fechadenacimiento">
+	<br><br>
+      <label for="tel">Número de teléfono:</label>
+      <input type="tel" name="telefono" id="telefono">
+	<br><br>
+      <label for="fileField">INE:</label>
+      <input type="file" name="INE" id="INE">
+<br><br>
+      <label for="color">Color preferido:</label>
+      <input type="color" name="colorpreferido" id="colorpreferido">
+	<br><br>
+      <input name="submit" type="submit" class="botón1" value="Enviar">
+    </form>
+  </section>
+  <section>
+    <h2>Formulario (search)&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur temporibus ea nisi, unde pariatur natus neque possimus doloremque quae in mollitia, qui veniam quis officia animi iste quo? Suscipit, ullam.</p>
+    <form id="form5" name="form5" method="post">
+      <label for="search">Busqueda en Google :</label>
+      <input type="search" name="search" id="search">
+      
+    </form>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Karen Jazmín Juárez Nepomuceno</h6>
+</footer>
+</body>
+</html>

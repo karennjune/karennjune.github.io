@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+body header, body nav, body main, body footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1366px;
+}
+		header{
+    background-color: #B5D7A4;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: auto;
+    height: 140px;
+		}
+body nav {
+    background-color: #5D2160;
+    height: 190px;
+}
+body main{
+				height: auto;
+				padding: 30px 0px;
+				background-color: #E7576E;
+		}
+body footer{
+    height: 80px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    background-color: #5D2160;
+		}
+body main section{
+    width: 800px;
+    height: auto;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #B5D7A4;
+		}
+		h1{
+			width: 800px;
+			height: 150px;
+			margin: 0 auto;
+			text-align: center;
+			color:#5D2160;
+			font-size: 80px;
+		}
+		h2{
+			font-size: 30px;
+			color:#5D2160;
+		}
+		p{
+			color:#26204D;
+			font-size: 15px;
+			padding: 20px 0px;
+		}
+		h6{
+    width: 800px;
+    height: 40px;
+    margin: 0px auto;
+    font-size: 20px;
+    color: #F7AB60;
+    text-align: center;
+		}
+main section ol, main section ul{
+    color: #26204D;
+    font-size: 15px;
+    margin: 3px 0px 3px 40px;
+		}
+.box_impar {
+    background-color: #7DB85F;
+}
+    #box_unica {
+    background-color: #F7AB60;
+}
+    #lista_1 {
+    list-style-type: decimal;
+}
+#menú {
+    height: auto;
+    display: inline-block;
+    width: auto;
+}
+    #menú li {
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    color: #E7576E;
+    background-color: #B5D7A4;
+    font-size: large;
+    text-align: center;
+    padding-top: 24px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 50px;
+    padding-bottom: 15px;
+    border: 3px solid #E7576E;
+}
+#menú li a:link, #menú li a:visited {
+    color: #E7576E;
+}
+#menú li a:hover {
+    color: #F7AB60;
+    font-weight: normal;
+    font-size: 18px;
+}
+    #lista_2 {
+    list-style-image: url(../im%C3%A1genes/disco-compacto.png);
+}
+    </style>
+<title>Listas en HTML</title>
+</head>
+
+<body>
+<header>
+  <h1>Listas en HTML</h1>
+</header>
+<nav>
+  <ul id="menú">
+    <li><a href="formatos de texto.html">Formato de textos</a></li>
+    <li><a href="listas en html.html">Listas en html</a></li>
+    <li><a href="ENLACES EN HTMLL.html">Enlaces</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="Imágenes en HTML.html">Imágenes</a></li>
+    <li><a href="Audio.html">Audio</a></li>
+    <li><a href="Video.html">Video</a></li>
+    <li><a href="formularios.html">Formularios</a></li>
+  </ul>
+</nav>
+<main>
+  <section class="box_impar">
+    <h2>Lista ordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed maiores veniam nihil, deleniti asperiores a est voluptates dicta ratione itaque dignissimos saepe blanditiis porro illo beatae ipsam! Esse vero labore voluptas quidem laudantium iure consequatur quia molestiae, quos nemo veritatis! Reiciendis consequuntur beatae neque commodi minima inventore quae optio velit, sapiente animi nobis expedita odit! Eligendi tenetur exercitationem tempore culpa repellat! Dolorem culpa deleniti mollitia suscipit, facilis fugit expedita odit ipsam libero et sint accusantium nobis numquam, unde illo ad tenetur sequi aspernatur? Praesentium quasi blanditiis, nobis laudantium tempora cumque, magnam illo, aperiam iste est quod quas laboriosam aliquam libero!</p>
+	  <ol>
+		  <li>Puebla</li>
+		  <li>Veracruz</li>
+		  <li>Tabasco</li>
+		  <li>Chiapas</li>
+		  <li>Tlaxcala</li>
+	  </ol>
+  </section>
+<!--Shortcut (section>h2+p)*5 genera 5 acciones que contienen un encabezado de nivel 2 y un párrafo-->
+<section>
+	<h2>Lista desordenada</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis hic totam ullam, reiciendis, architecto magnam harum ex rem iste beatae quod exercitationem dolores natus ipsa consequatur atque earum ut dignissimos accusamus expedita dolorum? Quaerat commodi nostrum iusto impedit odit, quo sequi aspernatur quam non. Eius at tempora, itaque inventore minima doloribus amet, blanditiis, excepturi voluptatibus quibusdam autem in, id voluptatum.</p>
+	<ul>
+		<li>México</li>
+		<li>España</li>
+		<li>Estados Unidos</li>
+		<li>Italia</li>
+		<li>Brasil</li>
+	</ul>
+</section>
+<section class="box_impar">
+  <h2>Lista mixta</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore at neque provident, atque consequuntur ut officiis ex magni omnis aspernatur vel mollitia. Rem hic error exercitationem dolorem, ratione ut, eos accusamus architecto fuga nam natus earum vel labore aliquam voluptatem voluptatum sapiente minus fugiat amet quos, explicabo perspiciatis iusto debitis aperiam. Et vero, sit magni obcaecati, architecto ut autem fugiat dicta. Labore quos voluptas aspernatur voluptatum exercitationem corporis, culpa numquam unde, quas a blanditiis dolore odio perspiciatis dolorem omnis amet et sit adipisci quisquam itaque cupiditate ex praesentium voluptates molestias. Quibusdam aut quos eligendi temporibus vero perferendis, hic pariatur debitis!</p>
+  <ol>
+    <li>México
+      <ul>
+        <li>Puebla
+          <ol>
+            <li>Atlixco</li>
+            <li>Tepeaca</li>
+            <li>Acajete</li>
+          </ol>
+        </li>
+        <li>Veracruz</li>
+        <li>Tabasco</li>
+      </ul>
+    </li>
+    <li>España</li>
+    <li>Estados Unidos</li>
+    <li>Italia</li>
+    <ol>
+      <li>Roma</li>
+      <li>Toscana</li>
+      <li>Venecia</li>
+    </ol>
+	  <li>Brasil</li>
+  </ol>
+</section>
+<section>
+	<h2>Lista desde dreamweaver</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum deserunt recusandae consectetur dolores incidunt pariatur totam debitis amet quasi. A odio alias, adipisci suscipit voluptas ducimus odit deserunt id ipsam architecto eligendi quisquam corrupti ullam quod facere maxime saepe sit, aliquid aut explicabo delectus quas? Veniam dolorum ratione qui maiores harum voluptate vero hic ut explicabo blanditiis animi, enim aliquam itaque architecto vitae tenetur in saepe beatae, autem a unde adipisci asperiores! Nesciunt earum, laboriosam distinctio dicta animi quasi vitae iste voluptate doloribus odio ducimus, porro nulla! Quos doloremque, beatae.</p>
+	<ol id="lista_2">
+	  <li>Melanie Martinez</li>
+	  <li>Conan Gray</li>
+	  <li>Rihanna</li>
+	  <li>Kendrick Lamar</li>
+    </ol>
+  </section>
+<section id="box_unica">
+  <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ullam, officia quas fuga harum fugiat maiores adipisci quia dolorum ex, mollitia quaerat nemo incidunt asperiores expedita corrupti animi non eius facere doloremque, dignissimos sunt nulla. Maxime blanditiis deserunt laborum maiores est illo, nam minima! Cum nulla illo libero consequuntur dolorem?</p>
+  <ol id="lista_1">
+    <li id="lista">Cry Baby</li>
+    <li>Dollhouse&nbsp;</li>
+    <li>K-12</li>
+    <li>After school&nbsp;</li>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam vel minus voluptatum id molestiae, explicabo repudiandae! Vitae, tempore dignissimos cum!</p>
+    <a href="https://www.melaniemartinezmusic.com" target="new"><img src="../imágenes/diskette.png" width="32" height="32" alt=""/></a>
+  </ol>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Karen Jazmín Juárez Nepomuceno</h6>
+</footer>
+</body>
+</html>
